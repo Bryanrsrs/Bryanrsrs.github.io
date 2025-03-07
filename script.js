@@ -6,7 +6,7 @@ function uploadToDrive() {
     if (file) {
         // Simulated file ID (replace with actual upload logic if using API)
         const fileId = Math.random().toString(36).substring(2, 15);
-        const driveFolderId = '1abc123...'; // Replace with your Google Drive folder ID
+        const driveFolderId = '1fUdhMZWwq7fQJbfdULD7dNBg3csYV_0M'; // Replace with your Google Drive folder ID
         const driveUrl = `https://drive.google.com/file/d/${fileId}/view?usp=sharing`; // Placeholder URL
 
         // Instructions for manual upload
